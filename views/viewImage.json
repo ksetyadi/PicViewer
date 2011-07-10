@@ -1,0 +1,13 @@
+{
+	"style": {
+		"background-color": "white",
+		"border": 10
+	},
+
+	"contents": [
+		{
+			"name": "imgresult",
+			"control": "ImageView"
+		}
+	]
+}

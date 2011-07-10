@@ -1,0 +1,55 @@
+{
+	"style": {
+		"background-color": "white",
+		"border": 10
+	},
+
+	"contents": [
+		{
+			"name": "title",
+			"control": "TextView",
+			"label": "PicViewer",
+			"style": {
+				"color": "black",
+				"font-weight": "bold",
+				"width": "fill-parent",
+				"height": "wrap-content",
+				"align": "center",
+				"valign": "middle"
+			}
+		},
+		
+		{
+			"name": "welcome",
+			"control": "TextView",
+			"label": "Please enter the keyword",
+			"style": {
+				"color": "black",
+				"width": "fill-parent",
+				"height": "wrap-content",
+				"align": "center",
+				"valign": "middle"
+			}
+		},
+		
+		{
+			"name": "keyword",
+			"control": "InputBox",
+			"style": {
+				"background-color": "#333333",
+				"color": "#FFFFFF",
+				"height": 20
+			}
+		},
+		
+		{
+			"name": "btnSearch",
+			"control": "TextView",
+			"label": "Search",
+			"style": {
+				"background-color": "green",
+				"color": "#FFFFFF",
+			}
+		}
+	]
+}
